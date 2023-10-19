@@ -1,0 +1,97 @@
+:root{
+    --font1_montserrat: 'Montserrat', sans-serif;
+      --font2_righteous: 'Righteous', cursive;
+      --font3_titillium: 'Titillium Web', sans-serif;
+      --font4_lato: 'Lato', sans-serif;
+      --branco: #ffffff;
+      --preto: #00000067;
+      --verde: #12D76E;
+      --azulbotao: #1A7CA6;
+      --azulborda: #294ABD;
+      --shadow: -1px -1px 0px #000,
+      -1px 1px 0px #000,
+      1px -1px 0px #000,
+      1px 0px 0px #000;
+  }
+  
+  /* body {
+      background: url(../id_aprovado/Assets/Backgronud.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      
+  } */
+ 
+
+  
+  /* MAin */
+  .modulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  
+  }
+  
+  .img_gif {
+  
+    /* height: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+   
+  }
+  
+  .img_gif img{
+    height: 90%;
+    
+  }
+  
+  
+  .botao_principal {
+    display: flex;
+    align-items: center;
+    border: var(--azulborda) solid 1px;
+    font-family: var(--font1_montserrat);
+    font-weight: bold;
+    font-size: 25px;
+    color: var(--branco);
+    border-radius: 70px;
+    padding: 15px 20px;
+    background-color:var(--azulbotao);
+    box-shadow: 0px 17px 21px 0px rgba(0,0,0,0.75);
+    text-shadow: 5px 5px 6px rgba(0,0,0,0.7);
+    text-align: center;
+    text-decoration: none;
+  
+  }
+  
+  
+  /* .btn {
+    display: flex;
+    margin-top: 50px;
+    margin-left: -40%;
+  
+  } */
+  
+  a:hover {
+    background-color:var(--branco);
+    color: var(--azulborda);
+  }
+  
+  
+  @media screen and (max-width:768px) {
+    .linha hr {
+  
+      display: none;
+    }
+  
+    .cabeca {
+      display: none;
+    }
+  
+    .linha img {
+      margin-top: 10px;
+    }
+  
+  }
